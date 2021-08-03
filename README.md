@@ -1,7 +1,10 @@
 ![Image of persons360](https://persona360.com.br/img/aesLogoBranco.svg)
 
 # aes.build
-##### Ferramenta para construir uma estrutura básica de MVC baseado em Node Express SockeIO Crypto EJS Bootstrap e MSSQ
+##### Ferramenta para construir uma estrutura básica de MVC 
+
+##Stack
+### Node | Express | SockeIO | Crypto | EJS | Bootstrap | MSSQ
 
 1. Clone o projeto numa pasta
 ```git
@@ -9,21 +12,21 @@ git clone https://github.com/Arte-e-Software/aes.build.git
 ```
 2. Vá até a pasta pelo terminal
 3. Configure as entidades de acordo com suas necesssídades. Vide entity.json como exemplo
-..* Se usar um arquivo com outro nome, altere o require() na index.js
-5. Instale as dependências
+... Se usar um arquivo com outro nome, altere o require() na index.js
+4. Instale as dependências
 ```npm
 npm install
 ```
-4. Rode o script de build
+5. Rode o script de build
 ```npm
 npm rum build
 ```
-5. Confira as pastas e arquivos criado (abra no Visual Studio Code)
+6. Confira as pastas e arquivos criado (abra no Visual Studio Code)
 ```bash
 ls
 ```
-6. Você pode usar acoplando a um sistema que já use esse stack
-7. OU, aguardar a versão 2.0 que virá com todo o sistema Persona360
+7. Você pode usar acoplando a um sistema que já use esse stack
+8. OU, aguardar a versão 2.0 que virá com todo o sistema Persona360
 
 ###### Exemplo de build: ./pedrosilva_Mon Aug 02 2021 21:37:02 GMT-0300 (Horário Padrão de Brasília)
 
