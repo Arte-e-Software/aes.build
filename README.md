@@ -1,4 +1,4 @@
-![Image of persons360](https://persona360.com.br/img/aesLogoBranco.svg)
+![Image of persons360](https://persona360.com.br/img/arte-e-software.png)
 
 # aes.build
 ##### Ferramenta para construir uma estrutura básica de MVC 
@@ -11,7 +11,7 @@
 mkdir aes.build
 cd aes.build
 ```
-2. Clone o projeto numa pasta
+2. Clone o projeto na pasta
 ```git
 git clone https://github.com/Arte-e-Software/aes.build.git
 ```
