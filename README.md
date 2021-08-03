@@ -1,7 +1,7 @@
 ![Image of persons360](https://persona360.com.br/img/arte-e-software.png)
 
 # aes.build
-##### Ferramenta para construir uma estrutura básica de MVC 
+##### Ferramenta para construir uma estrutura básica de MVC com NodeJs
 
 ## Stack - Node v14.17.4
 
