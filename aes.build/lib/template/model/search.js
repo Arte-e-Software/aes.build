@@ -5,7 +5,7 @@ module.exports = data => {
         , where
         , searchable = fields.map((field)=>{
 
-            if(field.search){
+            if(field.searchable){
                 return field.name;
             };
     
@@ -13,7 +13,7 @@ module.exports = data => {
         ;
 
     fields = fields.map((field)=>{ return field.name +'\n' })
-    where = searchable.map((field)=>{return field +' like '+ "'%${params.pesq}%'" }); 
+    where = searchable.map((field)=>{return field +' like '+ "'%${params.pesq}%'" });
     where = '('+ where.join('\nOR ') + ')\nAND idTenant = ${idTenant}';
 
     model += 'module.exports = (idTenant, params) => {\n\nreturn `';

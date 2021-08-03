@@ -1,4 +1,4 @@
-const create = require('../create/file');
+const createFile = require('./create.file');
 
 module.exports = (layer, namespace, success, error) => {
 
@@ -10,7 +10,7 @@ module.exports = (layer, namespace, success, error) => {
 
     for (let i in layer.file) {
 
-        data = {
+        entity = {
 
             entity: layer.entity,
             namespace: namespace,
@@ -45,7 +45,7 @@ Path: ${process.env.USER}_${Date()}
     ;
 
     file = dir + layer.file[i];
-    create(file, template(data), success, error);
+    createFile(file, template(entity), success, error);
 
     };
 

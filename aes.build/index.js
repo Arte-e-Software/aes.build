@@ -11,20 +11,18 @@ function success(msg) { };
 
 // ---------------------------------------- //
 
-const Entity = require('./entity/entity')
-    , Make = require('./lib/make/make')
+const layer = require('./lib/template/layer')
+    , build = require('./lib/build/builder')
     ;
 
 ((entity) => {
 
-    console.log('\n\n##########################################\n');
-    console.log('Building on dir ./' + process.env.USER+'_'+Date());
-    console.log('\n############################################\n\n\n------------\naes.tec.br\n------------');
+    console.log('\nBuilding @ ˜/' + process.env.USER + '_' + Date() + '\n\n');
 
     for (let i in entity) {
 
-        Make(Entity(entity[i]), success, error);
+        build(layer(entity[i]), success, error);
 
     }
 
-})(require('./entity/entity.json').entity);
+})(require('./entity.json').entity);

@@ -2,7 +2,12 @@ const env = require('dotenv');
 
 module.exports = entity => {
 
-    let root = process.env.USER+'_'+Date();
+    let root = process.env.USER+'_'+Date()
+        , db = {
+            profile: process.env.DB_PROFILE
+        }
+        ;
+    
 
     file = {
         js: ['create.js', 'read.js', 'update.js', 'delete.js', 'search.js'],
@@ -14,6 +19,8 @@ module.exports = entity => {
         name: entity.name,
 
         namespace: entity.namespace,
+
+        db: db,
         
         layer: {
 
@@ -22,7 +29,7 @@ module.exports = entity => {
                 name: 'model',
                 dir: `${root}/back_end/model/api/entity/${entity.name}/`,
                 file: file.js,
-                template: require('../template/template'),
+                template: require('./template'),
                 fields: entity.fields
             },
     
@@ -31,7 +38,7 @@ module.exports = entity => {
                 name: 'view',
                 dir: `${root}/views/entity/${entity.name}/`,
                 file: file.ejs,
-                template: require('../template/template'),
+                template: require('./template'),
                 fields: entity.fields
             },
     
@@ -40,7 +47,7 @@ module.exports = entity => {
                 name: 'controller',
                 dir: `${root}/back_end/controller/api/entity/${entity.name}/`,
                 file: file.js,
-                template: require('../template/template'),
+                template: require('./template'),
                 fields: entity.fields
             }
 

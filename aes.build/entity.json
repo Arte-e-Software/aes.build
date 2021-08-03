@@ -19,7 +19,7 @@
                     "lenght": "300",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": true,
                     "form": {
                         "label": "Nome",
                         "type": "text",
@@ -34,7 +34,7 @@
                     "lenght": "300",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": true,
                     "form": {
                         "label": "E-mail",
                         "type": "email",
@@ -63,7 +63,7 @@
                     "lenght": "",
                     "null": false,
                     "default": "Date()",
-                    "search": true,
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -72,7 +72,7 @@
                     "lenght": "",
                     "null": false,
                     "default": "1",
-                    "search": true,
+                    "searchable": false,
                     "form": false
                 }
             ]
@@ -95,7 +95,7 @@
                     "lenght": "300",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": true,
                     "form": {
                         "label": "Nome",
                         "type": "text",
@@ -110,7 +110,7 @@
                     "lenght": "",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -119,7 +119,7 @@
                     "lenght": "",
                     "null": false,
                     "default": "Date()",
-                    "search": true,
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -128,7 +128,7 @@
                     "lenght": "",
                     "null": false,
                     "default": "1",
-                    "search": true,
+                    "searchable": true,
                     "form": false
                 }
             ]
@@ -152,7 +152,7 @@
                     "lenght": "300",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": true,
                     "form": {
                         "label": "Nome",
                         "type": "text",
@@ -167,7 +167,7 @@
                     "lenght": "",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -176,7 +176,7 @@
                     "lenght": "",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -185,7 +185,7 @@
                     "lenght": "",
                     "null": false,
                     "default": "Date()",
-                    "search": true,
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -194,7 +194,7 @@
                     "lenght": "",
                     "null": false,
                     "default": "1",
-                    "search": true,
+                    "searchable": true,
                     "form": false
                 }
             ]
@@ -228,7 +228,7 @@
                     "lenght": "1000",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": true,
                     "form": {
                         "label": "Tag",
                         "type": "text",
@@ -239,7 +239,7 @@
                 },
                 {
                     "name": "titulo",
-                    "search": true,
+                    "searchable": true,
                     "type": "String",
                     "lenght": "300",
                     "null": false,
@@ -254,7 +254,7 @@
                 },
                 {
                     "name": "subTitulo",
-                    "search": true,
+                    "searchable": true,
                     "type": "String",
                     "lenght": "1200",
                     "null": false,
@@ -283,7 +283,7 @@
                 },
                 {
                     "name": "conteudo",
-                    "search": true,
+                    "searchable": true,
                     "type": "String",
                     "lenght": "5000",
                     "null": false,
@@ -316,7 +316,7 @@
                     "lenght": "",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": false,
                     "form": {
                         "label": "Ativar publicação",
                         "type": "check-box",
@@ -331,7 +331,7 @@
                     "lenght": "",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": false,
                     "form": {
                         "label": "Privado (somente usuários autenticados podem ler)",
                         "type": "check-box",
@@ -346,7 +346,7 @@
                     "lenght": "",
                     "null": false,
                     "default": "Date()",
-                    "search": true,
+                    "searchable": false,
                     "form": {
                         "label": "Data início da publicação (dia que entra no ar a partir das 00:00)",
                         "type": "Date",
@@ -361,7 +361,7 @@
                     "lenght": "",
                     "null": true,
                     "default": false,
-                    "search": true,
+                    "searchable": false,
                     "form": {
                         "label": "Data final da publicação (dia que sai no ar a partir das 00:00) - Vazio deixa a publicação eterna",
                         "type": "Date",
@@ -376,6 +376,7 @@
                     "lenght": "",
                     "null": false,
                     "default": false,
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -384,6 +385,7 @@
                     "lenght": "",
                     "null": true,
                     "default": false,
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -392,6 +394,7 @@
                     "lenght": "",
                     "null": true,
                     "default": false,
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -400,6 +403,7 @@
                     "lenght": "",
                     "null": false,
                     "default": "Date()",
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -408,6 +412,7 @@
                     "lenght": "",
                     "null": false,
                     "default": "1",
+                    "searchable": false,
                     "form": false
                 }
             ]
