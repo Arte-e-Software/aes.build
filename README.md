@@ -18,7 +18,7 @@ git clone https://github.com/Arte-e-Software/aes.build.git
 ```
 3. Configure as entidades de acordo com suas necessidades. Vide entity.json como exemplo
 ```file
-˜/github/aes.build/entity.jsonnode
+˜/github/aes.build/entity.json
 ```
 4. Instale as dependências
 ```npm
