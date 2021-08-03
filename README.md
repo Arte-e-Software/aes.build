@@ -3,8 +3,8 @@
 # aes.build
 ##### Ferramenta para construir uma estrutura básica de MVC 
 
-##Stack
-### Node | Express | SockeIO | Crypto | EJS | Bootstrap | MSSQ
+## Stack
+### [Node](https://nodejs.org/en/) | [Express](https://expressjs.com/pt-br/) | [SockeIO](https://socket.io/) | [Crypto](https://github.com/brix/crypto-js) | [EJS](https://ejs.co/) | [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) | [MSSQ](https://www.npmjs.com/package/mssql)
 
 1. Clone o projeto numa pasta
 ```git
