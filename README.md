@@ -7,7 +7,7 @@
 2. Vá até a pasta pelo terminal
 3. ```npm
 npm instal
-````
+```
 4. ```npm
 npm rum build
 ````
