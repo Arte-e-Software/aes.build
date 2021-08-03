@@ -81,6 +81,7 @@ const layer = require('./lib/template/layer')
             "namespace": [
                 
                 "idPessoa", 
+                "idTenant",
                 "nome", 
                 "email", 
                 "senha", 
@@ -158,6 +159,7 @@ const layer = require('./lib/template/layer')
             "namespace": [
                 
                 "idEscola", 
+                "idTenant",
                 "nome", 
                 "idPessoa", 
                 "DataCad", 
@@ -214,6 +216,7 @@ const layer = require('./lib/template/layer')
             "namespace": [
                 
                 "idCurso", 
+                "idTenant",
                 "nome", 
                 "idEscola", 
                 "idPessoa", 
@@ -280,6 +283,7 @@ const layer = require('./lib/template/layer')
             "namespace": [
 
                 "idConteudo", 
+                "idTenant",
                 "nome", 
                 "titulo", 
                 "subtitulo", 
