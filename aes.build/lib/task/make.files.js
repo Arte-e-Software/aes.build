@@ -32,7 +32,7 @@ ${namespace.join('\n')}
 
 Visit https://aes.tec.br 
 GitHub https://github.com/Arte-e-Software/aes.build.git
-Author Pedro Silva pedro@aes.tec.br
+Author Pedro Silva aes.tec.br@gmail.com
 
 2021 @ SP-Brasil
 
