@@ -5,7 +5,7 @@
 
 ## Stack - Node v14.17.4
 
-### [Node](https://nodejs.org/en/) | [Express](https://expressjs.com/pt-br/) | [SockeIO](https://socket.io/) | [Crypto](https://github.com/brix/crypto-js) | [EJS](https://ejs.co/) | [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) | [MSSQl](https://www.npmjs.com/package/mssql)
+### [Node](https://nodejs.org/en/) | [Express](https://expressjs.com/pt-br/) | [SockeIO](https://socket.io/) | [Crypto](https://github.com/brix/crypto-js) | [EJS](https://ejs.co/) | [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) | [MSSQL](https://www.npmjs.com/package/mssql)
 
 1. Crie uma pasta para o projeto
 ```bash
