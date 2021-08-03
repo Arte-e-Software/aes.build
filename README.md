@@ -38,7 +38,7 @@ const Entity = require('./entity/entity')
 })(require('./entity/entity.json').entity);
 ```
 
-# entity.json
+#entity.json
 
 ```json
 {
