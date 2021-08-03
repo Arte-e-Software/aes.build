@@ -2,7 +2,7 @@ const env = require('dotenv');
 
 module.exports = entity => {
 
-    let root = process.env.USER+'_'+Date()
+    let root = 'build-sample' //process.env.USER+'_'+Date()
         , db = {
             profile: process.env.DB_PROFILE,
             dir: `${root}/.${process.env.DB_PROFILE}/scripts/`
