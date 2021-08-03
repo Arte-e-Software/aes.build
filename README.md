@@ -1,7 +1,9 @@
 # aes.build
 ##### Ferramenta para construir uma estrutura básica de MVC baseado em Node Express SockeIO Crypto EJS Bootstrap e MSSQ
 
-#### Crie um .josn nesse padrão, salve como entity.json na raiz ou que preferir
+#### Crie um .json no nosso padrão, salve como entity.json, ou como preferir, só lembre de alterar o require da index.js
+##### a pasta onde o sistema será criado é o nome do usuário logado na máquina mais a data
+##### exemplo: ./pedrosilva_Mon Aug 02 2021 21:37:02 GMT-0300 (Horário Padrão de Brasília)
 
 #index.js
 
