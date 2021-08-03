@@ -5,7 +5,7 @@ module.exports = entity => {
     let root = process.env.USER+'_'+Date()
         , db = {
             profile: process.env.DB_PROFILE,
-            dir: `${root}/.db/${process.env.DB_PROFILE}/entity`
+            dir: `${root}/.${process.env.DB_PROFILE}/scripts/`
         }
         ;
     
