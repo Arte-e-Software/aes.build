@@ -5,13 +5,16 @@
 
 1. Clone o projeto numa pasta
 2. Vá até a pasta pelo terminal
-3. ```npm
-npm instal
+3. Instale as dependências
+```npm
+npm install
 ```
-4. ```npm
+4. Rode o script de build
+```npm
 npm rum build
-````
-5. ```bash
+```
+5. Confira as pastas e arquivos criado (abra no Visual Studio Code)
+```bash
 ls
 ```
 6. Você pode usar acoplando a um sistema que já use esse stack
