@@ -6,13 +6,19 @@
 ## Stack
 ### [Node](https://nodejs.org/en/) | [Express](https://expressjs.com/pt-br/) | [SockeIO](https://socket.io/) | [Crypto](https://github.com/brix/crypto-js) | [EJS](https://ejs.co/) | [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) | [MSSQ](https://www.npmjs.com/package/mssql)
 
-1. Clone o projeto numa pasta
+1. Crie uma pasta para o projeto
+```bash
+mkdir aes.build
+cd aes.build
+```
+2. Clone o projeto numa pasta
 ```git
 git clone https://github.com/Arte-e-Software/aes.build.git
 ```
-2. Vá até a pasta pelo terminal
-3. Configure as entidades de acordo com suas necesssídades. Vide entity.json como exemplo
-... Se usar um arquivo com outro nome, altere o require() na index.js
+3. Configure as entidades de acordo com suas necessidades. Vide entity.json como exemplo
+```file
+˜/github/aes.build/entity/entity.json
+```
 4. Instale as dependências
 ```npm
 npm install
