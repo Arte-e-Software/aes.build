@@ -4,6 +4,9 @@
 ##### Ferramenta para construir uma estrutura básica de MVC baseado em Node Express SockeIO Crypto EJS Bootstrap e MSSQ
 
 1. Clone o projeto numa pasta
+```git
+git clone https://github.com/Arte-e-Software/aes.build.git
+```
 2. Vá até a pasta pelo terminal
 3. Instale as dependências
 ```npm
