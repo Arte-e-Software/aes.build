@@ -1,4 +1,4 @@
-const makeDir = require('../../make.dir')
+const makeDir = require('../make.dir')
     , createTable = require('./create.table')
     ;
 

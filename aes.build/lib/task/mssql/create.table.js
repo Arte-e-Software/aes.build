@@ -1,4 +1,4 @@
-const createFile = require('../../create.file');
+const createFile = require('../create.file');
 
 module.exports = (table, success, error) => {
 
