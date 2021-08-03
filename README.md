@@ -53,24 +53,22 @@ function success(msg) { };
 
 // ---------------------------------------- //
 
-const Entity = require('./entity/entity')
-    , Make = require('./lib/make/make')
+const layer = require('./lib/template/layer')
+    , build = require('./lib/build/builder')
     ;
 
 ((entity) => {
 
-    console.log('\n\n##########################################\n');
-    console.log('Building on dir ./' + process.env.USER+'_'+Date());
-    console.log('\n############################################\n');
-    console.log('\nhttps://aes.tec.br');
+    console.log('\nBuilding @ ˜/' + process.env.USER + '_' + Date() + '\n\n');
 
     for (let i in entity) {
 
-        Make(Entity(entity[i]), success, error);
+        build(layer(entity[i]), success, error);
 
     }
 
-})(require('./entity/entity.json').entity);
+})(require('./entity.json').entity);
+
 ```
 
 #entity.json
@@ -97,7 +95,7 @@ const Entity = require('./entity/entity')
                     "lenght": "300",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": true,
                     "form": {
                         "label": "Nome",
                         "type": "text",
@@ -112,7 +110,7 @@ const Entity = require('./entity/entity')
                     "lenght": "300",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": true,
                     "form": {
                         "label": "E-mail",
                         "type": "email",
@@ -141,7 +139,7 @@ const Entity = require('./entity/entity')
                     "lenght": "",
                     "null": false,
                     "default": "Date()",
-                    "search": true,
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -150,7 +148,7 @@ const Entity = require('./entity/entity')
                     "lenght": "",
                     "null": false,
                     "default": "1",
-                    "search": true,
+                    "searchable": false,
                     "form": false
                 }
             ]
@@ -173,7 +171,7 @@ const Entity = require('./entity/entity')
                     "lenght": "300",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": true,
                     "form": {
                         "label": "Nome",
                         "type": "text",
@@ -188,7 +186,7 @@ const Entity = require('./entity/entity')
                     "lenght": "",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -197,7 +195,7 @@ const Entity = require('./entity/entity')
                     "lenght": "",
                     "null": false,
                     "default": "Date()",
-                    "search": true,
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -206,7 +204,7 @@ const Entity = require('./entity/entity')
                     "lenght": "",
                     "null": false,
                     "default": "1",
-                    "search": true,
+                    "searchable": true,
                     "form": false
                 }
             ]
@@ -230,7 +228,7 @@ const Entity = require('./entity/entity')
                     "lenght": "300",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": true,
                     "form": {
                         "label": "Nome",
                         "type": "text",
@@ -245,7 +243,7 @@ const Entity = require('./entity/entity')
                     "lenght": "",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -254,7 +252,7 @@ const Entity = require('./entity/entity')
                     "lenght": "",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -263,7 +261,7 @@ const Entity = require('./entity/entity')
                     "lenght": "",
                     "null": false,
                     "default": "Date()",
-                    "search": true,
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -272,7 +270,7 @@ const Entity = require('./entity/entity')
                     "lenght": "",
                     "null": false,
                     "default": "1",
-                    "search": true,
+                    "searchable": true,
                     "form": false
                 }
             ]
@@ -306,7 +304,7 @@ const Entity = require('./entity/entity')
                     "lenght": "1000",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": true,
                     "form": {
                         "label": "Tag",
                         "type": "text",
@@ -317,7 +315,7 @@ const Entity = require('./entity/entity')
                 },
                 {
                     "name": "titulo",
-                    "search": true,
+                    "searchable": true,
                     "type": "String",
                     "lenght": "300",
                     "null": false,
@@ -332,7 +330,7 @@ const Entity = require('./entity/entity')
                 },
                 {
                     "name": "subTitulo",
-                    "search": true,
+                    "searchable": true,
                     "type": "String",
                     "lenght": "1200",
                     "null": false,
@@ -361,7 +359,7 @@ const Entity = require('./entity/entity')
                 },
                 {
                     "name": "conteudo",
-                    "search": true,
+                    "searchable": true,
                     "type": "String",
                     "lenght": "5000",
                     "null": false,
@@ -394,7 +392,7 @@ const Entity = require('./entity/entity')
                     "lenght": "",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": false,
                     "form": {
                         "label": "Ativar publicação",
                         "type": "check-box",
@@ -409,7 +407,7 @@ const Entity = require('./entity/entity')
                     "lenght": "",
                     "null": false,
                     "default": false,
-                    "search": true,
+                    "searchable": false,
                     "form": {
                         "label": "Privado (somente usuários autenticados podem ler)",
                         "type": "check-box",
@@ -424,7 +422,7 @@ const Entity = require('./entity/entity')
                     "lenght": "",
                     "null": false,
                     "default": "Date()",
-                    "search": true,
+                    "searchable": false,
                     "form": {
                         "label": "Data início da publicação (dia que entra no ar a partir das 00:00)",
                         "type": "Date",
@@ -439,7 +437,7 @@ const Entity = require('./entity/entity')
                     "lenght": "",
                     "null": true,
                     "default": false,
-                    "search": true,
+                    "searchable": false,
                     "form": {
                         "label": "Data final da publicação (dia que sai no ar a partir das 00:00) - Vazio deixa a publicação eterna",
                         "type": "Date",
@@ -454,6 +452,7 @@ const Entity = require('./entity/entity')
                     "lenght": "",
                     "null": false,
                     "default": false,
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -462,6 +461,7 @@ const Entity = require('./entity/entity')
                     "lenght": "",
                     "null": true,
                     "default": false,
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -470,6 +470,7 @@ const Entity = require('./entity/entity')
                     "lenght": "",
                     "null": true,
                     "default": false,
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -478,6 +479,7 @@ const Entity = require('./entity/entity')
                     "lenght": "",
                     "null": false,
                     "default": "Date()",
+                    "searchable": false,
                     "form": false
                 },
                 {
@@ -486,6 +488,7 @@ const Entity = require('./entity/entity')
                     "lenght": "",
                     "null": false,
                     "default": "1",
+                    "searchable": false,
                     "form": false
                 }
             ]
