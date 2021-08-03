@@ -41,7 +41,8 @@ Path: ${process.env.USER}_${Date()}
 
 */
     `,
-    error: `Erro em Entity: ${layer.entity} Layer: ${layer.name} Module: ${layer.file[i]}`}
+    error: `Erro em Entity: ${layer.entity} Layer: ${layer.name} Module: ${layer.file[i]}`
+    }
     ;
 
     file = dir + layer.file[i];

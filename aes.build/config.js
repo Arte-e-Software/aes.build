@@ -32,7 +32,7 @@ module.exports = entity => {
                 name: 'model',
                 dir: `${root}/back_end/model/api/entity/${entity.name}/`,
                 file: file.js,
-                template: require('./template'),
+                template: require('./lib/template/template'),
                 fields: entity.fields
             },
     
@@ -41,7 +41,7 @@ module.exports = entity => {
                 name: 'view',
                 dir: `${root}/views/entity/${entity.name}/`,
                 file: file.ejs,
-                template: require('./template'),
+                template: require('./lib/template/template'),
                 fields: entity.fields
             },
     
@@ -50,7 +50,7 @@ module.exports = entity => {
                 name: 'controller',
                 dir: `${root}/back_end/controller/api/entity/${entity.name}/`,
                 file: file.js,
-                template: require('./template'),
+                template: require('./lib/template/template'),
                 fields: entity.fields
             }
 

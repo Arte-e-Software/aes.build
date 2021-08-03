@@ -42,6 +42,7 @@ GO
 CREATE TABLE ${table.name}
 (
  id${table.name} INT IDENTITY(1,1) NOT NULL PRIMARY KEY
+,idTenant INT NOT NULL
 ,${columns}
 );
 GO

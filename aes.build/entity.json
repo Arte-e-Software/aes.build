@@ -5,6 +5,7 @@
             "namespace": [
                 
                 "idPessoa", 
+                "idTenant",
                 "nome", 
                 "email", 
                 "senha", 
@@ -82,6 +83,7 @@
             "namespace": [
                 
                 "idEscola", 
+                "idTenant",
                 "nome", 
                 "idPessoa", 
                 "DataCad", 
@@ -138,6 +140,7 @@
             "namespace": [
                 
                 "idCurso", 
+                "idTenant",
                 "nome", 
                 "idEscola", 
                 "idPessoa", 
@@ -204,6 +207,7 @@
             "namespace": [
 
                 "idConteudo", 
+                "idTenant",
                 "nome", 
                 "titulo", 
                 "subtitulo", 
