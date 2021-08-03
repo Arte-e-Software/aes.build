@@ -24,9 +24,9 @@ git clone https://github.com/Arte-e-Software/aes.build.git
 ```npm
 npm install
 ```
-5. Rode o script de build
+5. Rode o script de build passando o parâmetro do DB_PROFILE
 ```npm
-npm rum build
+DB_PROFILE=mssql npm rum build
 ```
 6. Confira as pastas e arquivos criado (abra no Visual Studio Code)
 ```bash
