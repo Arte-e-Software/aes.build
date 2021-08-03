@@ -10,7 +10,7 @@ module.exports = (layer, namespace, success, error) => {
 
     for (let i in layer.file) {
 
-        entity = {
+        data = {
 
             entity: layer.entity,
             namespace: namespace,
@@ -45,7 +45,7 @@ Path: ${process.env.USER}_${Date()}
     ;
 
     file = dir + layer.file[i];
-    createFile(file, template(entity), success, error);
+    createFile(file, template(data), success, error);
 
     };
 
