@@ -18,7 +18,7 @@ const Entity = require('./entity/entity')
 ((entity) => {
 
     console.log('\n\n##########################################\n');
-    console.log('Building on dir ./' + process.env.BUILD_ROOT);
+    console.log('Building on dir ./' + process.env.USER+'_'+Date());
     console.log('\n############################################\n\n\n------------\naes.tec.br\n------------');
 
     for (let i in entity) {

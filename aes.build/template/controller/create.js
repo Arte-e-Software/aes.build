@@ -40,11 +40,11 @@ ${data.comment}
 module.exports = (tenant, req, res) => {
 
 let db = require('../../../../db/mssql/conn').db // Pegar esse carinha a partir do tenant na versão 2.0!
-, Pool = require('../../../../db/mssql/pool')
-, ${data.module}_ = require('../../../../${data.layer}/entity/${data.entity}/${data.module}')
-, idTenant = tenant.idTenant
-, params = {\n ${params}}
-, erro = true
+,Pool = require('../../../../db/mssql/pool')
+,${data.module}_ = require('../../../../${data.layer}/entity/${data.entity}/${data.module}')
+,idTenant = tenant.idTenant
+,params = {\n ${params}}
+,erro = true
 ;
 
 ${password}

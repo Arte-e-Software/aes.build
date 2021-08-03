@@ -30,10 +30,11 @@ ${namespace.join('\n')}
 
 /------------------------------
 
-Visit aes.tec.br 
-GitHub github.com/Arte-e-Software/aesbuild.git
+Visit https://aes.tec.br 
+GitHub https://github.com/Arte-e-Software/aes.build.git
 Author Pedro Silva pedro@aes.tec.br
-2021-07 SP-Brasil
+
+2021 @ SP-Brasil
 
 Building with aes.build v1
 Path: ${process.env.USER}_${Date()}

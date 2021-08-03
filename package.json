@@ -7,7 +7,7 @@
     "url": "https://github.com/Arte-e-Software/aes.build.git"
   },
   "scripts": {
-    "build": "node ./build"
+    "build": "node ./aes.build"
   },
   "dependencies": {
     "crypto-js": "^4.1.1",
