@@ -35,7 +35,7 @@ ls
 7. Você pode usar acoplando a um sistema que já use esse stack
 8. OU, aguardar a versão 2.0 que virá com todo o sistema Persona360
 
-###### Exemplo de build [https://github.com/Arte-e-Software/pedrosilva_Mon-Aug-02-2021-22-47-08](https://github.com/Arte-e-Software/pedrosilva_Mon-Aug-02-2021-22-47-08)
+###### Exemplo de build [build-sample](https://github.com/Arte-e-Software/aes.build/tree/main/build-sample)
 
 #index.js
 
