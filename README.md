@@ -3,6 +3,20 @@
 # aes.build
 ##### Ferramenta para construir uma estrutura básica de MVC baseado em Node Express SockeIO Crypto EJS Bootstrap e MSSQ
 
+1. Clone o projeto numa pasta
+2. Vá até a pasta pelo terminal
+3. ```npm
+npm instal
+````
+4. ```npm
+npm rum build
+````
+5. ```bash
+ls
+```
+6. Você pode usar acoplando a um sistema que já use esse stack
+7. OU, aguardar a versão 2.0 que virá com todo o sistema Persona360
+
 #### Crie um .json no nosso padrão, salve como entity.json, ou como preferir, só lembre de alterar o require da index.js
 ##### a pasta onde o sistema será criado é o nome do usuário logado na máquina mais a data
 ##### exemplo: ./pedrosilva_Mon Aug 02 2021 21:37:02 GMT-0300 (Horário Padrão de Brasília)
