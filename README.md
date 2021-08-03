@@ -1,8 +1,7 @@
 # aes.build
-### Ferramenta para construir uma estrutura básica de MVC baseado em Node Express SockeIO Crypto EJS Bootstrap e MSSQ
+##### Ferramenta para construir uma estrutura básica de MVC baseado em Node Express SockeIO Crypto EJS Bootstrap e MSSQ
 
-## Este é um arquivo de ENTITY exemplo. Basta criar um com esse mesmo formato com suas próprias entidades, salvar como entity.json na raiz
-## ou alterar o nome do arquivo a ser compilado na página index.js em require('./entity/entity.json')
+#### Crie um .josn nesse padrão, salve como entity.json na raiz ou que preferir
 
 #index.js
 
