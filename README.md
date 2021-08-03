@@ -53,7 +53,7 @@ function success(msg) { };
 
 // ---------------------------------------- //
 
-const layer = require('./lib/template/layer')
+const config = require('./config')
     , build = require('./lib/build/builder')
     ;
 
@@ -63,7 +63,7 @@ const layer = require('./lib/template/layer')
 
     for (let i in entity) {
 
-        build(layer(entity[i]), success, error);
+        build(config(entity[i]), success, error);
 
     }
 
